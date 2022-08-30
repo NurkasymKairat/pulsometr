@@ -41,10 +41,36 @@
     .reasons_text {
         font-size: 12px;
     }
+
+    .modal {
+        left: 45%;
+    }
+
 }
 
 
 @media(max-width:545px) {
+    .catalog__tabs {
+        flex-wrap: wrap;
+       
+    }
+
+    .catalog_tab:last-child {
+       margin-top: 15px;
+       
+    }
+
+    .catalog__content {
+
+        justify-content: center;
+    }
+    
+    
+    dl, ol, ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
     .consult_title {
         font-size: 27px;
         margin-bottom: 50px;
@@ -92,6 +118,11 @@
         justify-content: center;
         align-items: center;
     }
+
+    .modal_close {
+        top: -30px;
+        right: 0;
+}
 
 }
 
